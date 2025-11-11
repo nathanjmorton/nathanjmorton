@@ -1,6 +1,7 @@
 Learning Priorities:
-Turbotax (Intuit Courses)
-Javascript (Shopify)
-Go
-C
+----
+1. Turbotax (Intuit Courses)
+2. Javascript (Shopify)
+3. Go
+4. C
 
