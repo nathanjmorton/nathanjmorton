@@ -1,7 +1,1 @@
-Learning Priorities:
-----
-1. Turbotax (Intuit Courses)
-2. Javascript (Shopify)
-3. Go
-4. C
-
+Concept: Remix v3 web stack on CDN and lightweight workers with Go API layer deployed to k8s on aws
