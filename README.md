@@ -1,1 +1,5 @@
-concept: remix v3 web stack on cdn and lightweight workers with go api layer deployed to k8s on aws
+working on a transpiler / compiler toolchain for typescript which outputs intermediate languages c and cpp (parses source for interface and class keywords, outputs a code split file for cpp), which are then linked and compiled to native machine code and wasm. and this includes package management like npm with a similar workflow - eg `zigtsc add <library_name_or_url>`. 
+
+this is for education purposes, mainly for the cmudb prof andy pavlo's courses starting with bustub. i don't like managing deps with CMAKE and CMAKELists so i ported a version of c that compiles with zig. that became zigc, which is a standalone cli for compiling c and adding c and cpp libraries (we call them 'packages' in node dev). zigc is both a cli for c projects and a library for zigtsc to compile its own transpiled c and cpp code from the typescript source...
+
+the idea is write things in a high level language that's fun like typescript, transpile it to c and cpp if it has classes in order to examine the output and then compile the c and cpp with library support, as if we were working with a nice toolchain like node / npm or a modern language like zig rust or go. 
